@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #283036;
+}
+.profile{
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+}
+.profile h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+.profile h2{
+    font-size: 20px;
+}
+.profile h3{
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.social-links{
+    display: flex;
+}
+.social-links a{
+    width: 1000px;
+    height: 80px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 50%;
+    margin: 2px;
+    line-height: 100px;
+    display: inline-block;
+    color: white;
+    background-color: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    text-transform: uppercase;
+    transition: .5s ease;
+    transition-property: background-color, color;
+}
+.social-links a:hover{
+    color: white;
+    background-color: crimson;
+}
+.mp a{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 20%;
+    margin: 2px;
+    line-height: 100px;
+    display: inline-block;
+    color: white;
+    background-color: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    text-transform: uppercase;
+    transition: .5s ease;
+    transition-property: background-color, color;
+}
+.mp a:hover{
+    color: white;
+    background-color: crimson;
+}
